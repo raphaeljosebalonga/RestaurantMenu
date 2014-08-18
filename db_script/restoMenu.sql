@@ -36,6 +36,13 @@ insert into restoMenu_List(menu_id, menuprice, menutype) values ("Sparkling Wate
 insert into restoMenu_List(menu_id, menuprice, menutype) values ("Soda", 2, "Bevande");
 insert into restoMenu_List(menu_id, menuprice, menutype) values ("Coffee and Brewed Decaf", 2, "Bevande");
 insert into restoMenu_List(menu_id, menuprice, menutype) values ("Cappuccino or Americano", 3, "Bevande");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Ossobuco", 32, "I Secondi");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Rigatoni con Pollo", 22, "I Secondi");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Red Snapper Mango", 30, "I Secondi");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Ostriche allo Champagne", 26, "I Secondi");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Bistecca Diana", 28, "I Secondi");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Fettuccine Carbonara", 24, "I Secondi");
+
 
 --controller
 
