@@ -1,7 +1,7 @@
 create table restoMenu_List(
 
 	menu_id text primary key,
-	menuprice int,
+	menuprice int, --in dollars
 	menutype text, --(Ex.: Beverages, Desert, Appetizer, etc)
 
 );
@@ -14,11 +14,28 @@ create table restoMenu_Ordered(
 
 );
 
-insert into restoMenu_List(menu_id, menuprice, menutype) values ("Fried Chicken", 50, "Chicken");
-insert into restoMenu_List(menu_id, menuprice, menutype) values ("Roasted Beef", 85, "Beef");
-insert into restoMenu_List(menu_id, menuprice, menutype) values ("Liempo", 75, "Pork");
-insert into restoMenu_List(menu_id, menuprice, menutype) values ("Mango Float", 35, "Desert");
-insert into restoMenu_List(menu_id, menuprice, menutype) values ("Coca Cola", 35, "Beverages");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Bruschetta con Crema di Agliotoa", 8, "Antipasti");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Spiedini di Albicocca al Proscuitto Crudo", 9, "Antipasti");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Tortino di Gorgonzola", 8, "Antipasti");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Zuppa di Giorno", 5, "Zuppa e Insalata");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Minestrone Piemontese", 5, "Zuppa e Insalata");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Zuppa de Pesce", 8, "Zuppa e Insalata");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Insalata Mista", 5, "Zuppa e Insalata");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Insalata Fagioli", 6, "Zuppa e Insalata");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Margherita", 11, "Pizza");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Sicilian", 14, "Pizza");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Chicken Florentine", 16, "Pizza");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Rigatoni Alla Siciliana", 12, "Pasta");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Paglia e Fieno", 14, "Pasta");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Orecchiette con Rapini", 14, "Pasta");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Pappardelle con Sugo di Coniglio", 15, "Pasta");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Chocolate Zabaglione Cake", 6, "Dolci");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Zuccotto", 6, "Dolci");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Tira Misu", 6, "Dolci");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Sparkling Water", 3, "Bevande");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Soda", 2, "Bevande");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Coffee and Brewed Decaf", 2, "Bevande");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Cappuccino or Americano", 3, "Bevande");
 
 --controller
 
