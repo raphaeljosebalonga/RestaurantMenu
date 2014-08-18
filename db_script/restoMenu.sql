@@ -30,7 +30,7 @@ declare
 	v_table_id int;
 
 begin
-	select into v_table_id menu_id from restoMenu
+	select into v_table_id table_id from restoMenu
 		where v_table_id = p_table_id;
 
 	insert into restoMenu_Ordered(table_id, menu_id) values (p_table_id, p_menu_id);
