@@ -96,6 +96,6 @@ $$
 
 language 'sql';
 -- How to use:
--- select * from get_restoMenu_Ordered_perid(1);
+-- select * from get_restoMenu_Ordered_perid(Zuppa di Giorno);
 -- select * from get_restoMenu_Ordered();
 -- select * from get_restoMenu_List();

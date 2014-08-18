@@ -40,8 +40,8 @@ insert into restoMenu_List(menu_id, menuprice, menutype) values ("Ossobuco", 32,
 insert into restoMenu_List(menu_id, menuprice, menutype) values ("Rigatoni con Pollo", 22, "I Secondi");
 insert into restoMenu_List(menu_id, menuprice, menutype) values ("Red Snapper Mango", 30, "I Secondi");
 insert into restoMenu_List(menu_id, menuprice, menutype) values ("Ostriche allo Champagne", 26, "I Secondi");
-insert into restoMenu_List(menu_id, menuprice, menutype) values ("Bistecca Diana", 26, "I Secondi");
-insert into restoMenu_List(menu_id, menuprice, menutype) values ("Fettuccine Carbonara", 26, "I Secondi");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Bistecca Diana", 28, "I Secondi");
+insert into restoMenu_List(menu_id, menuprice, menutype) values ("Fettuccine Carbonara", 24, "I Secondi");
 
 
 --controller
@@ -96,6 +96,6 @@ $$
 
 language 'sql';
 -- How to use:
--- select * from get_restoMenu_Ordered_perid(1);
+-- select * from get_restoMenu_Ordered_perid(Zuppa di Giorno);
 -- select * from get_restoMenu_Ordered();
 -- select * from get_restoMenu_List();
